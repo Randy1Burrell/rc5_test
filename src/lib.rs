@@ -1,5 +1,10 @@
-/// This is a library that implements the RC5 encryption algorithm, that is
-/// commonly call Ron's Cipher based off the first name of its creator
+//!
+//! #RC5
+//!
+//! This is a library that implements the RC5 encryption algorithm for 32 bits
+//! word size.
+//!
+//!
 use byteorder::{LittleEndian, ReadBytesExt, WriteBytesExt};
 use std::{cmp, io::Cursor};
 
